@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const email = require("./Routes/Mailer/mailer");
-const { PORT } = require("./config/db");
+const { PORT } = require("./Config/db.js");
 const { success } = require("consola");
 
 
