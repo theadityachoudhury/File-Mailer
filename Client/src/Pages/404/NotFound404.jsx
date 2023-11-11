@@ -10,7 +10,7 @@ const NotFound404 = () => {
 					<h1>404</h1>
 					<h2>Page not found</h2>
 				</div>
-				<Link to={"/dashboard"}>Homepage</Link>
+				<Link to={"/"}>Homepage</Link>
 			</div>
 		</div>
 	);
