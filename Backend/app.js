@@ -6,7 +6,7 @@ const { PORT } = require("./Config/db.js");
 
 const app = express();
 
-app.use(cors({ origin: ['http://localhost:5173'] }));
+app.use(cors({ origin: ['http://localhost:5173','https://mailer.adityachoudhury.com','https://file-mailer.vercel.app'] }));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use((req, res, next) => {

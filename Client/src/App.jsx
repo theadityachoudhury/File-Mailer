@@ -5,7 +5,7 @@ import Mailer from "./Pages/Mailer/Mailer";
 
 const baseURL =
 	window.location.hostname === "mailer.adityachoudhury.com"
-		? "https://mailer-backend.adityachoudhury.me"
+		? "https://mailer-backend.adityachoudhury.com"
 		: "http://localhost:5000";
 
 axios.defaults.baseURL = baseURL;
