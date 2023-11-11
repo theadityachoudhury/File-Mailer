@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const email = require("./Routes/Mailer/mailer");
 const { PORT } = require("./Config/db.js");
-const { success } = require("consola");
 
 
 const app = express();
@@ -47,5 +46,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, async () => {
-    success({ message: `Server started on PORT ${PORT}`, badge: true });
+    console.log(`Server started on PORT ${PORT}`);
 });
