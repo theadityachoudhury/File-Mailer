@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 const fs = require('fs');
-const { SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_HOST } = require("../../config/db");
+const { SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_HOST } = require("../../Config/db.js");
 
 
 const mailer = async (req, res, next) => {
